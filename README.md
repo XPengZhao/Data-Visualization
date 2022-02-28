@@ -22,4 +22,4 @@ Repository for Matlab/python data visualization.
 
 [Code link T2]:<python%20code/maze%20animation>
 
-[Video link T2]:<https://www.bilibili.com/video/BV1a34y1k7XX/)>
+[Video link T2]:<https://www.bilibili.com/video/BV1a34y1k7XX/>
