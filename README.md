@@ -9,14 +9,12 @@ Repository for Matlab/python data visualization.
   - [Video link T1]
 
 - Matplotlib Animation绘制动画
- 
+
   - [Code link T2]
 
   - [Video link T2]
 
 
-
-Video Link:[Matplotlib Animation绘制动画](https://www.bilibili.com/video/BV1a34y1k7XX/)
 
 [Code link T1]:<matlab%20code/basic>
 
