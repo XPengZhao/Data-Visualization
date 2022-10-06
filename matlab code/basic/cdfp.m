@@ -3,8 +3,8 @@ clc;clear;close all;
 load('data.mat');
 
 figure;
-set(gcf,'unit', 'inches', 'position', [5,5,9,4]);  % 设置图片长宽
-axes('linewidth', 2, 'box', 'on', 'FontSize', 16); % 设置坐标轴线宽
+set(gcf,'unit', 'inches', 'position', [5,5,8,5]);  % 设置图片长宽
+axes('linewidth', 1.5, 'box', 'on', 'FontSize', 18); % 设置坐标轴线宽
 
 %% 绘制三条cdf曲线
 hold on;
@@ -17,6 +17,10 @@ set(h3, 'linewidth', 3, 'Color', [239/255, 210/255, 173/255], 'linestyle',':');
 
 %% 删除标题，添加legend，xlabel和ylabel
 delete(get(gca,'title'))
-legend('Method 1','Method 2','Ours', 'Location', 'Best')
+legend('Method 1','Method 2','Ours', 'Location', 'southeast')
 xlabel('Phase Error (rad)')
 ylabel('CDF');
+xlim([0,0.1]);
+
+%% 导出矢量图
+exportgraphics(gcf,"basic-cdf.pdf",'BackgroundColor','none','ContentType','vector')
