@@ -12,7 +12,7 @@ error = [4.29, 3.4; 2.9, 3.1; 3.61, 5.2; 5.7, 6.4];
 %     [],'Algorithm','Error (m)',jet,'none');
 
 barweb(mean_value, error, 1, {},...
-    [],['LunarLander'],'Average Sample Size',jet,'none',[]);
+    [],'LunarLander','Average Sample Size',jet,'none',[]);
 % set(gca,'YScale','log','FontSize', 16);
 set(gca, 'FontSize', 20,'YGrid','on','linewidth', 1.5);
 
@@ -24,11 +24,11 @@ set(gcf,'unit', 'inches', 'position', [5,5,9,6]);  % 设置图片长宽
 % ylim([0,1500])
 
 h = get(gca,'Children');
-h(5)
-set(h(5),'FaceColor',[124/255,24/255,35/255])
-set(h(6),'FaceColor',[138/255,152/255,142/255])
-set(h(7),'FaceColor',[21/255,85/255,154/255])
-set(h(8),'FaceColor',[249/255,236/255,195/255])
+h(3)
+set(h(3),'FaceColor',[124/255,24/255,35/255])
+set(h(4),'FaceColor',[138/255,152/255,142/255])
+% set(h(3),'FaceColor',[21/255,85/255,154/255])
+% set(h(4),'FaceColor',[249/255,236/255,195/255])
 % hold on;
 % bar(err50_all);
 % errorbar(err90_all);
