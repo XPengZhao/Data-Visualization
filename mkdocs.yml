@@ -1,0 +1,7 @@
+site_name: My Docs
+markdown_extensions:
+  - codehilite:
+      use_pygments: true
+      linenums: false
+extra_css:
+  - css/basic.css
