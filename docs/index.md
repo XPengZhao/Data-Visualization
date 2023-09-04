@@ -2,7 +2,7 @@
 
 ## Basic settings in Matlab
 
-Download code and data [Here](../matlab-code/basic)
+Download code and data [Here](https://github.com/XPengZhao/Data-Visualization/tree/main/matlab-code/basic)
 
 ```matlab
 clc;clear;close all;
