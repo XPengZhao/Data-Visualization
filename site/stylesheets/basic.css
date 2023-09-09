@@ -3,3 +3,17 @@
     margin-left: auto;
     margin-right: auto;
   }
+
+.md-img {
+    width: 33%;
+    height: auto;
+  }
+
+  .zoom:hover {
+    -webkit-transform: scale(1.1); /* Safari and Chrome */
+    -moz-transform: scale(1.1); /* Firefox */
+    -ms-transform: scale(1.1); /* IE 9 */
+    -o-transform: scale(1.1); /* Opera */
+    transform: scale(1.1);
+    transition: all .2s ease-in-out;
+  }
