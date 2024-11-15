@@ -1,4 +1,6 @@
-# Plot Gallery
+# Example Gallery
+
+## Plot Gallery
 
 
 

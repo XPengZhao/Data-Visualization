@@ -6,7 +6,7 @@ figure;
 set(gcf,'unit', 'inches', 'position', [5,5,9,15]);  % 设置图片长宽
 axes('linewidth', 2, 'box', 'on', 'FontSize', 18); % 设置坐标轴线宽
 xlim([0,1]);
-ylim([0,24])
+ylim([0,25])
 hold on;
 
 %% rgb = rgba * alpha + bg * (1 - alpha)
@@ -84,6 +84,11 @@ i = i+1;
 yline(i,"-","Color",[39,85,149]/255, "LineWidth",5, 'Alpha',1 , ...
     "Label", "39, 85, 149", "FontSize",ft_size, "LabelHorizontalAlignment","center");
 i = i+1;
+
+yline(i,"-","Color",[45,112,186]/255, "LineWidth",5, 'Alpha',1 , ...
+    "Label", "45,112,186", "FontSize",ft_size, "LabelHorizontalAlignment","center");
+i = i+1;
+
 
 yline(i,"-","Color",[79, 110, 151]/255, "LineWidth",5, 'Alpha',1 , ...
     "Label", "79, 110, 151", "FontSize",ft_size, "LabelHorizontalAlignment","center");

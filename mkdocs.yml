@@ -5,6 +5,7 @@ nav:
   - Home: index.md
   - Matlab Plot: matlab-plot.md
   - Utils: extract-data.md
+  - Palette: palette.md
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
@@ -16,3 +17,4 @@ markdown_extensions:
 extra_css:
   - stylesheets/basic.css
   - stylesheets/bootstrap.min.css
+  - stylesheets/palette.css
